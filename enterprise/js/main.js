@@ -22,5 +22,5 @@ requirejs(['./waterfull'],function(Exposure){
 })
 
 requirejs(['./gotop'],function(Gotop){
-	var gotop = new Gotop()
+	var gotop = new Gotop("./img/rocket.gif")
 })
